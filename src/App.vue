@@ -1,6 +1,5 @@
 <template>
-  <h1>app</h1>
-  
+  <h1>app - nav bar - below is router view inni</h1>
   <router-view/>
 </template>
 
