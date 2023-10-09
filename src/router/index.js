@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Braidsy from '../views/Braidsy.vue'
+import fullDetails from '../views/fullDetails.vue'
 
 const routes = [
   {
@@ -12,7 +13,13 @@ const routes = [
     path: '/braidsy',
     name: 'Braidsy',
     component: Braidsy
-  }
+  },
+  {
+    path: '/post/:id',
+    name: 'fullDetails',
+    component: fullDetails,
+    props: true
+  },
 
 ]
 
