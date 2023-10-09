@@ -1,5 +1,6 @@
 <template>
-  <h1>app - nav bar - below is router view inni</h1>
+  <router-link to="/Braidsy">Braidsy</router-link> |
+  <router-link to="/">Home</router-link>
   <router-view/>
 </template>
 

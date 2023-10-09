@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import Braidsy from '../views/Braidsy.vue'
 
 const routes = [
   {
@@ -7,6 +8,11 @@ const routes = [
     name: 'Home',
     component: HomeView
   },
+  {
+    path: '/braidsy',
+    name: 'Braidsy',
+    component: Braidsy
+  }
 
 ]
 
