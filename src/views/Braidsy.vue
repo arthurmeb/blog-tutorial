@@ -7,14 +7,16 @@
 </template>
 
 <script>
-
+import getPosts from '../composables/getPosts'
 import PostList from '@/components/PostList.vue'
+import { ref } from 'vue'
 
 export default {
     name: 'Braidsy',
     components: {PostList},
     setup() {
        
+        const {error, posts, load} = getPosts()
 
         load()
 
